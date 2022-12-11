@@ -1,4 +1,4 @@
-Using this template, storage account can be deployed.
+Using this template, multiple storage account can be deployed.
 
 ->To deploy a template, sign in to either the Azure CLI or Azure PowerShell
 
