@@ -30,6 +30,9 @@
         "apiVersion": "2021-06-01",
         "name": "[format('storagemainac{0}{0}', copyIndex())]",
         "location": "[parameters('location')]",
+         "tags": {
+            "displayName": "MultipleStorageAccount"
+        },
         "sku": {
           "name": "[parameters('storageAccountType')]"
         },
