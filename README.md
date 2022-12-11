@@ -10,4 +10,4 @@ Using this template, multiple storage account can be deployed.
      
 ->Deploy template
 
-     az deployment group create --name DeployLocalTemplate --resource-group $resourceGroupName --template-file <PATH-TO-storage.JSON> --parameters <PATH-TO-storage.PARAMETERS.JSON> 
+     az deployment group create --name DeployLocalTemplate --resource-group $resourceGroupName --template-file <PATH-TO-multiplestorage.JSON> --parameters <PATH-TO-multiplestorage.PARAMETERS.JSON> 
